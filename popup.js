@@ -36,19 +36,9 @@
     preferredQualityElement.onchange = function() {
         var selectedString = preferredQualityElement.options[preferredQualityElement.selectedIndex].value;
         chrome.storage.sync.set({preferredQuality: selectedString}, function() {});
-    }
-
-    extensionEnabledElement.addEventListener('change', function(event) {
-        if (event.target.checked) {
-            setExtensionEnabledBoolean(true);
-            enableElements();
-        } else {
-            setExtensionEnabledBoolean(false);
-            disableElements();
-        }
-    });
+    };
 
     var setExtensionEnabledBoolean = function(extensionEnabled) {
         chrome.storage.sync.set({extensionEnabled: extensionEnabled}, function() {});
-    }
+    };
 })();
