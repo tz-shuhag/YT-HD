@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
-	"name": "YT-Auto HD",
-	"description": "Auto HD quality (8k/4k/2k/1080p) selector for YouTube.",
+	"name": "YT-HD",
+	"description": "Set Default quality (8k/4k/2k/1080p) for YouTube.",
 	"version": "1.0",
 	"author": "TZ Shuhag",
 
@@ -12,7 +12,7 @@
 	},
 
     "action": {
-        "default_title": "YT-Auto HD",
+        "default_title": "YT-HD",
         "default_icon": "16.png",
         "default_popup": "popup.html"
     },
