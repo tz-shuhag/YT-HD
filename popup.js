@@ -11,19 +11,12 @@
         extensionStatusElement.innerText = 'Extension Disabled';
     }
 
-    function enableElements() {
-        wrapperElement.classList.remove('wrapper-enabled');
-        document.body.style.backgroundColor = '#262a32';
-        extensionStatusElement.innerText = 'Extension Enabled';
-    }
-
     chrome.storage.sync.get(['extensionEnabled'], function(result) { 
         if(result.extensionEnabled !== undefined && result.extensionEnabled === false) {
             extensionEnabledElement.checked = false; 
             disableElements();
         } else {
-            enableElements();
-            extensionEnabledElement.checked = true;
+
         }
     });
 
