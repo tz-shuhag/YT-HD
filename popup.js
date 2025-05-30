@@ -5,9 +5,6 @@
     var preferredQualityElement = document.getElementById('preferred-quality');
     var wrapperElement          = document.getElementsByClassName('wrapper')[0];
 
-    var headerElem = document.querySelector('header .version');
-    headerElem.innerText = 'v' + version;
-
     function disableElements() {
         wrapperElement.classList.add('wrapper-enabled');
         document.body.style.backgroundColor = 'grey';
