@@ -9,9 +9,9 @@
     function runObserverIfExtensionEnabled() {
         chrome.storage.sync.get(['extensionEnabled'], function(result) {
             if(result.extensionEnabled === false) {
-                console.log('Youtube Auto HD Extension Disabled.');
+                console.log('YT-HD Extension Disabled.');
             } else {
-                console.log('Youtube Auto HD Extension Enabled. Initiating observer.');
+                console.log('YT-HD Extension Enabled. Initiating observer.');
                 initiateObserverAndObserve();
             }
         });
