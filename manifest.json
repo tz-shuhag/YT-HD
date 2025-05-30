@@ -1,0 +1,38 @@
+{
+	"manifest_version": 3,
+	"name": "YT-Auto HD",
+	"description": "Auto HD quality (8k/4k/2k/1080p) selector for YouTube.",
+	"version": "1.0",
+	"author": "TZ Shuhag",
+
+	"icons": { 
+		"16": "16.png",
+		"48": "48.png",
+		"128": "128.png"
+	},
+
+    "action": {
+        "default_title": "YT-Auto HD",
+        "default_icon": "16.png",
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+	"content_scripts": [{
+		"matches": ["*://www.youtube.com/*"],
+		"exclude_globs": [
+			"*/embed/*",
+			"*/tv#/*",
+			"*/tv/*"
+		],
+		"all_frames": true,
+		"js": ["content.js"],
+		"run_at": "document_start"
+	}],
+
+	"permissions": ["storage"],
+	"host_permissions": ["*://www.youtube.com/*"]
+}
