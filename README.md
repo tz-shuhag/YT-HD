@@ -5,11 +5,9 @@ A Chrome Manifest V3 extension that enhances your YouTube viewing experience by 
 
 ## 🚀 Features
 
-- ✅ Automatically sets default YouTube video quality to 1080p / 1440p / 2160p
-- ⛔ Optimizes for smoother performance on low-end devices
-- 🎛️ Simple popup UI to change preferences instantly
-- 🔁 Syncs preferences using Chrome's `storage.sync`
-- 🌐 Works exclusively on `youtube.com`
+- ✅ Automatically Set Quality to (1080p/2k/4k/8k)
+- ⛔ Optimizes for Smoother Performance on low-end devices
+- 🎛️ Simple Popup UI to Change Preferences
 
 ---
 
@@ -24,4 +22,4 @@ A Chrome Manifest V3 extension that enhances your YouTube viewing experience by 
 
 - storage — to save your settings
 - scripting — to inject scripts into YouTube pages
-- host permissions — to run only on https://www.youtube.com/*
+- host permissions — to run only on `youtube.com`
