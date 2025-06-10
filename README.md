@@ -1,7 +1,7 @@
 # 🎥 YouTube Default Video Quality
 A Chrome Manifest V3 extension that enhances your YouTube viewing experience by automatically setting the default video quality.
 
-![Logo](https://raw.githubusercontent.com/tz-shuhag/tz-shuhag.github.io/refs/heads/main/assets/img/ythd.png)
+![Logo](https://raw.githubusercontent.com/tz-shuhag/tz-shuhag.github.io/refs/heads/main/assets/images/ythd.png)
 
 ## 🚀 Features
 
