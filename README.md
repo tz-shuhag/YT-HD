@@ -10,11 +10,12 @@ A Chrome Manifest V3 extension that enhances your YouTube viewing experience by 
 - 🎛️ Simple Popup UI to Change Preferences
 
 ## 📦 Installation
-
-1. Open `chrome://extensions/`
-2. Enable Developer Mode
-3. Click Load unpacked
-4. Select the extracted folder
+1. Download the Zip
+   - [Extension zip](https://github.com/tz-shuhag/YT-HD/archive/refs/heads/main.zip)
+3. Open `chrome://extensions/`
+4. Enable Developer Mode
+5. Click Load unpacked
+6. Select the extracted folder
 
 ## 🛡️ Permissions
 
