@@ -21,7 +21,7 @@ select {
 }
 
 .custom-dropdown::after {
-  content: "▼";
+  content: "🔽";
   position: absolute;
   right: 10px;
   top: 50%;
