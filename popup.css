@@ -29,7 +29,7 @@ select {
   pointer-events: none;
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 10px solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
   border-top: 5px solid #000;
 }
