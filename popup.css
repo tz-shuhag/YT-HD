@@ -27,6 +27,6 @@ select {
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  color: rgba(0,0,0,0.4);
+  color: black;
   font-size: 0.7em;
 }
