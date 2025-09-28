@@ -1,6 +1,10 @@
 # 🎬 YouTube Default Video Quality
 A Chrome MV3 extension that enhances your YouTube viewing experience by automatically setting the default video quality.
 
+[![Release](https://img.shields.io/github/v/release/tz-shuhag/YT-HD?display_name=tag&style=for-the-badge&logo=github&labelColor=21262d&color=1f6feb)](https://github.com/tz-shuhag/YT-HD/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/tz-shuhag/YT-HD/total?style=for-the-badge&labelColor=21262d&color=238636)](https://github.com/tz-shuhag/YT-HD/releases)
+[![Platform](https://img.shields.io/badge/chrome-platform?style=for-the-badge&label=platform&labelColor=21262d&color=6e7681)](https://www.google.com/chrome/)
+
 ![Logo](https://raw.githubusercontent.com/tz-shuhag/tz-shuhag.github.io/refs/heads/main/assets/images/quality.png)
 
 ## ✨ Features
