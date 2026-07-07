@@ -6,7 +6,7 @@
 [![Downloads](https://img.shields.io/github/downloads/tz-shuhag/YT-HD/total?style=for-the-badge&labelColor=21262d&color=238636)](https://github.com/tz-shuhag/YT-HD/releases)
 [![Platform](https://img.shields.io/badge/chrome-platform?style=for-the-badge&label=platform&labelColor=21262d&color=6e7681)](https://www.google.com/chrome/)
 
-![Logo](https://raw.githubusercontent.com/tz-shuhag/tz-shuhag.github.io/refs/heads/main/assets/images/quality.png)
+![Logo](https://raw.githubusercontent.com/tz-shuhag/YT-HD/main/ythd.webp)
 
 ## ✨ Features
 
